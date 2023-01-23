@@ -1,0 +1,43 @@
+{% extends "xcompare/base.html" %}
+
+{% block title %}
+XPriceCompare Project
+{% endblock %}
+
+{% block content %}
+<style>
+</style>
+<div class = "container-fluid">
+    <section class="container hero mt-2">
+        <h1 class="hero-header">XPriceFactoy</h1>
+        <p class="hero-text">Compare prices from Amazon and Aliexpress</p>
+        <p class="hero-text">Version 1.0</p>
+        <div class="flex">
+            <span><a href="">Product History</a></span>
+            <span><a href="">About Project</a></span>
+        </div>
+    </section>
+    <section class="container content mt-4">
+        <div class="row">
+            <div class="col-md-5">
+                <h4 class="bold">Search for Product</h4>
+                <hr>
+                <form>
+                    <div class="form-group">
+                        <label for="product_name">Product Name</label>
+                        <input type="text" class="form-control" name="product_name" id="product_name" placeholder="Enter Product Name.....">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Compare Prices">
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-md-7">
+
+            </div>
+
+        </div>
+    </section>
+</div>
+{% endblock %}

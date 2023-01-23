@@ -1,0 +1,38 @@
+body{
+    font-family:monospace;
+    letter-spacing: .01rem;
+}
+
+.hero{
+    padding:3%;
+    background: rgb(215, 215, 215);
+    border-radius: 20px;
+    text-align:center;
+}
+
+.hero-text:last-of-type{
+    background-color:black;
+    padding: 1% 2%;
+    color:white;
+    font-size: 0.8em;
+    display:inline-block;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex span, .flex span > a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.flex span > a:hover{
+    color: green;
+}
