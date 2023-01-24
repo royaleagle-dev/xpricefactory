@@ -1,0 +1,20 @@
+<table class="table table-responsive table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Old Price</th>
+            <th>Discount</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for i in data %}
+        <tr>
+            <td>{{i.product_name}}</td>
+            <td>{{i.product_price}}</td>
+            <td>{{i.product_old_price}}</td>
+            <td>{{i.product_discount}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
